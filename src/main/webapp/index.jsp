@@ -23,6 +23,20 @@
 
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+
+            <h2 class="text-center">go to sourse</h2>
+            <form action="${pageContext.request.contextPath}/resource" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname</label>
+                    <input type="text" class="form-control" id="surname" name="surname" placeholder="Enter your surname">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
         </div>
     </div>
 </div>
